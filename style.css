@@ -1,0 +1,441 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.bodybgimg {
+    background-image: url(img/background.png) ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    backdrop-filter: blur(5px);
+    backdrop-filter: contrast(90%) ;
+    backdrop-filter: brightness(90%);
+    backdrop-filter: drop-shadow(10%);
+    filter:saturate(100%);
+    filter: sepia(0%);
+    filter: opacity(100%);
+    filter:invert(0%);
+}
+
+.anim {
+    display: flex;
+    /* justify-content: space-between ; */
+    justify-content: space-around;
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+    align-items: center;
+}
+
+.bdisplay {
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: space-around;
+    
+} 
+
+.bdisplay button {
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    border-radius: 30px;
+}
+
+button:hover {
+    text-decoration: underline;
+    background-color: black;
+    transition: background-color 0.8s;
+    color: white;
+    /* zoom:110%; */
+    
+
+}
+
+
+
+.home {
+    color: rgb(109, 0, 119);
+    background-color: black ;
+    border: 2px solid rgb(109, 0, 119);
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
+    width: 200px ;
+    height: 60px ;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30%;
+    /* padding-top: 15px; */
+    }
+
+.AI {
+    border: 4px solid rgb(117, 0, 128);
+    width: 400px; 
+    height: 250px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    }
+
+.presentation {
+    color: rgb(109, 0, 119);
+    background-color: black ;
+    border: 4px solid rgb(109, 0, 119);
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
+    width: 260px ;
+    height: 40px ;
+    margin-left: auto;
+    margin-right: auto;
+    } 
+
+.passions {
+    color: rgb(109, 0, 119);
+    background-color: black ;
+    border: 4px solid rgb(109, 0, 119);
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
+    width: 230px ;
+    height: 40px ;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.projet  {
+    color: rgb(109, 0, 119);
+    background-color: black ;
+    border: 4px solid rgb(109, 0, 119);
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
+    width: 380px ;
+    height: 40px ;
+    margin-left: auto;
+    margin-right: auto;
+}  
+
+
+.footer1 {
+    text-align: end;
+    color: red;
+    font-size: 40px;
+  }
+
+.footer2 {
+    text-align: end;
+    color: green;
+    font-size: 40px;
+  }  
+  
+
+  
+p {
+    color: white;
+}
+
+.lorem {
+    text-align: center;
+    width: 700px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+
+}
+
+.image {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 500px;
+}
+
+video {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 500px;
+}
+
+.V {
+    color: yellow;
+}
+
+.parcours {
+    color: rgb(28, 0, 184);
+    font-size: 30px;
+    margin-left: 15%;
+}
+
+.qualité {
+    color: rgb(109, 0, 119);
+    background-color: black ;
+    border: 4px solid rgb(109, 0, 119);
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
+    width: 260px ;
+    height: 30px ;
+    margin-left: auto;
+    margin-right: auto;
+    } 
+
+.h2parcours {
+    color: rgb(109, 0, 119);
+    background-color: black ;
+    border: 4px solid rgb(109, 0, 119);
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
+    width: 200px ;
+    height: 30px ;
+    margin-left: auto;
+    margin-right: auto;
+    } 
+
+
+
+
+
+.h1hover {
+    color: rgb(109, 0, 119);        
+    background-color: black ;        
+    border: 4px solid rgb(109, 0, 119);        
+    text-align: center;        
+    font-weight: bold;        
+    font-style: oblique;
+    width: 300px ;        
+    height: 40px ;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rotation {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 300px;
+    
+}
+
+.rotation:hover {
+    transform: rotate(90deg);
+}
+
+.display {
+    display: flex;
+    justify-content: space-between ;
+    /* justify-content: space-around; */
+    /* flex-direction: column-reverse; */
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+
+@media (max-width: 600px) {
+    .media2, .media, .bdisplay {
+        display: none;
+    
+}
+}
+
+@media (min-width: 600px) and (max-width: 1000px) {
+    .media, .bdisplay, .h1Base {
+        display: none;
+    }
+}
+
+
+@media (min-width: 1000px) {
+    .bodyjaune {
+      background-color: yellow;
+    }
+    .h1Base {
+        display: none;
+    }
+  }
+
+
+table {
+    color: rgb(19, 168, 31);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    font-size: 50px;
+    width: 100%;
+    background-color: rgb(180, 3, 3);
+}
+
+h2 {
+    color: rgb(109, 0, 119);
+    background-color: black ;
+    border: 4px solid rgb(109, 0, 119);
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
+    width: 150px ;
+    height: 30px ;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    @keyframes img1 {
+        0% {
+            transform: translate(0, 0);
+        }
+        50% {
+            transform: translate(10000px, 300px);
+        }
+        100% {
+            transform: translate(0, 0);
+        }
+    }
+    
+    @keyframes img2 {
+        0% {
+            transform: translate(0, 0);
+        }
+        50% {
+            transform: translate(-100px, -200px);
+        }
+        100% {
+            transform: translate(0, 0);
+        }
+    }
+    
+    @keyframes img3 {
+        0% {
+            transform: translate(0, 0);
+        }
+        50% {
+            transform: translate(10px, 500px);
+        }
+        100% {
+            transform: translate(0, 0);
+        }
+    }
+    
+    @keyframes img4 {
+        0% {
+            transform: translate(0, 0);
+        }
+        50% {
+            transform: translate(-1500px, 500px);
+        }
+        100% {
+            transform: translate(0, 0);
+        }
+    }
+    
+    @keyframes img5 {
+        0% {
+            transform: translate(0, 0);
+        }
+        50% {
+            transform: translate(1000px, -4000px);
+        }
+        100% {
+            transform: translate(0, 0);
+        }
+    }
+    
+    @keyframes img6 {
+        0% {
+            transform: translate(0, 0);
+        }
+        50% {
+            transform: translate(100px, 5000px);
+        }
+        100% {
+            transform: translate(0, 0);
+        }
+    }
+    
+    .img1 {
+    
+        position: relative;
+        animation: img1 10s infinite;
+    }
+    
+    .img2 {
+    
+        position: relative;
+        animation: img2 10s infinite;
+    }
+    
+    .img3 {
+    
+        position: relative;
+        animation: img3 10s infinite;
+    }
+    
+    .img4 {
+    
+        position: relative;
+        animation: img4 10s infinite;
+    }
+    
+    .img5 {
+    
+        position: relative;
+        animation: img5 10s infinite;
+    }
+    
+    .img6 {
+    
+        position: relative;
+        animation: img6 10s infinite;
+    }
+    
+    @keyframes AI {
+        0% {
+            transform: translate(0, 0);
+        }
+        10% {
+            transform: translate(-10px, -30px);
+        }
+        20% {
+            transform: translate(-15px, -25px);
+        }
+        30% {
+            transform: translate(-20px, -20px);
+        }
+        40% {
+            transform: translate(-25px, -15px);
+        }
+        50% {
+            transform: translate(0px, 0px);
+        }
+        60% {
+            transform: translate(25px, 15px);
+        }
+        70% {
+            transform: translate(20px, 20px);
+        }
+        80% {
+            transform: translate(15px, 25px);
+        }
+        90% {
+            transform: translate(10px, 30px);
+        }
+        100% {
+            transform: translate(0, 0);
+        }
+    }
+    
+    .AI {
+    
+        position: relative;
+        animation: AI 3s infinite;
+    }
+
+  
